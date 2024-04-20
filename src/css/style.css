@@ -1,0 +1,55 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#nobtn {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+  
+#yesbtn {
+    position: absolute;
+    margin-right: 130px;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #017cff;
+    color: white;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 3px black;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #017cff;
+  }
+
+.txt {
+    color: darkblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.gif {
+    display: flex;
+    width: 300px;
+    border: midnightblue;
+    border-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
